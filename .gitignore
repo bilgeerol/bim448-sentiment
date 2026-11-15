@@ -1,0 +1,9 @@
+
+# Proje özel kuralları
+data/raw/
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+.env

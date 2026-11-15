@@ -1,0 +1,12 @@
+pandas
+scikit-learn
+matplotlib
+seaborn
+vaderSentiment
+transformers
+datasets
+accelerate
+torch
+sentencepiece
+sacremoses
+groq
