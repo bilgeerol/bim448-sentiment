@@ -1,0 +1,18 @@
+parametre,ingilizce,turkce
+Model adı,FacebookAI/roberta-base,dbmdz/bert-base-turkish-cased
+Parametre sayısı,124.647.939,110.619.651
+MAX_LEN (token),128,128
+128 tokenı aşan test metni oranı,"%3,20","%0,20"
+Öğrenme oranı,2e-5,2e-5
+Batch boyutu (eğitim / değerlendirme),32 / 64,32 / 64
+Epoch sayısı,3,3
+En iyi epoch (val makro-F1'e göre),3,2
+Optimizer,AdamW (Trainer varsayılanı),AdamW (Trainer varsayılanı)
+Warmup oranı,0 (uygulanmadı),0 (uygulanmadı)
+Weight decay,"0,01","0,01"
+fp16 (karışık duyarlık),Evet,Evet
+Seed,42,42
+Eğitim örnek sayısı,30.000,30.000
+Eğitim süresi (dk),"10,6","10,7"
+GPU,NVIDIA Tesla T4 (Google Colab),NVIDIA Tesla T4 (Google Colab)
+Val makro-F1 (en iyi epoch),"0,802","0,812"
