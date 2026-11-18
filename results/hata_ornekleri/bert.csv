@@ -1,0 +1,7 @@
+id,dil,model,text,true_label,pred_label,aciklama
+en_282535,EN,BERT (RoBERTa),It doesn't look like a $13 wig!,positive,negative,Cümledeki olumsuzluk (doesn't) aslında övgü bildiriyor; model olumsuz kelimeye takılıp yorumu Negatif saymıştır.
+en_356762,EN,BERT (RoBERTa),I thought it works good for moisturizing the lips and the colors are nice but I don’t care for the strong rose taste when I put it on.,negative,neutral,Karışık duygu: nemlendirme ve renk övülüp tat eleştirilmiş; model iki yönü dengeleyip Nötr tahmin etmiştir.
+en_330232,EN,BERT (RoBERTa),This stuff made my skin even more oily it is horrible I do not recommend I threw mine away,neutral,negative,Metin açıkça olumsuz olduğu hâlde 3 yıldız verilmiş; yıldızdan türetilen etiketteki gürültüye örnektir.
+tr_058249,TR,BERT (BERTurk),"Çok yağlı bir görüntü oluşturuyor, yağlı ciltlere uygun değil, ancak renk uyumu güzel",negative,neutral,Karışık duygu: olumsuz eleştiriden sonra 'ancak renk uyumu güzel' denmesi modeli Nötr tahmine yöneltmiştir.
+tr_053351,TR,BERT (BERTurk),Bana çok iyi gelmedi ama fena değil,positive,neutral,'gelmedi' ve 'fena değil' gibi olumsuzluk ekli ılımlı ifadeler model tarafından Nötr olarak yorumlanmıştır.
+tr_120335,TR,BERT (BERTurk),"güzel ürün, kötü yorumu kabul etmediginiz icin boyle yazmak zorunda kaldim almayın",positive,negative,"Metin ürünü önermiyor ama etiket Pozitif; kullanıcının açıkladığı gibi yüksek puan zorunlulukla verilmiş, etiket gürültüsüdür."
