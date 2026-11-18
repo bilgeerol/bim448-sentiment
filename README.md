@@ -1,11 +1,15 @@
-# BİM 448 – Duygu Analizi Projesi (`bim448-sentiment`)
+# BİM 448 Sentiment Analysis Project
 
-İngilizce ve Türkçe ürün yorumları üzerinde VADER, BERT ve LLM yöntemlerinin karşılaştırmalı duygu analizi.
+Bu proje, müşteri yorumları üzerinde duygu analizi (sentiment analysis) gerçekleştirmek amacıyla BERT, VADER ve LLM yaklaşımlarını karşılaştırmalı olarak incelemektedir.
 
-## Ekip Üyeleri
-- **Zehra:** Veri Hazırlama, VADER, Değerlendirme & Koordinasyon
-- **Bilge:** GitHub Ortamı, BERT İnce Ayarı & Karşılaştırma Grafikleri
-- **Sude:** LLM (Groq API), Hata Analizi & Video
+## 📁 Tahmin Dosyaları (Predictions)
+Proje kapsamında üretilen ve `predictions/` klasöründe yer alan modeller:
+- **BERT Modelleri**: `bert_en.csv`, `bert_tr.csv`
+- **VADER Modelleri**: `vader_en.csv`, `vader_tr_direct.csv`, `vader_tr_mt.csv`
+- **LLM Yaklaşımları**: `llm_en.csv`, `llm_tr_partial.csv` vb.
 
-## Çalıştırma Sırası
-`01_veri_hazirlama.ipynb` → `02_vader.ipynb` / `03_bert_finetune.ipynb` / `04_llm.ipynb` → `05_degerlendirme.ipynb` → `06_karsilastirma.ipynb`
+## 🚀 Kullanılan Teknolojiler
+- Python, Pandas, NumPy
+- Hugging Face Transformers (`roberta-base`, `bert-base-turkish-cased`)
+- Scikit-learn (Metrik değerlendirmeleri)
+- Google Colab & GitHub
