@@ -1,0 +1,3 @@
+dil,ornek_sayisi,ucu_de_dogru,ucu_de_dogru_oran,ucu_de_yanlis,ucu_de_yanlis_oran,yalnizca_bert_dogru,yalnizca_bert_dogru_oran,yalnizca_llm_dogru,yalnizca_llm_dogru_oran,yalnizca_vader_dogru,yalnizca_vader_dogru_oran,bert_ve_llm_dogru_vader_yanlis,bert_ve_llm_dogru_vader_yanlis_oran
+en,3000,1262,0.421,291,0.097,332,0.111,126,0.042,105,0.035,725,0.242
+tr,3000,1368,0.456,247,0.082,324,0.108,99,0.033,78,0.026,692,0.231
