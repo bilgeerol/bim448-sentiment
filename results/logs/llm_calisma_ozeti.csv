@@ -1,2 +1,3 @@
 dil,model,reasoning_effort,grup_boyutu,ornek_sayisi,toplam_istek,grup_istegi,tekrar_gonderilen_grup,tek_tek_gonderilen_yorum,gecersiz_cevap,girdi_token,cikti_token,toplam_token,baslangic_utc,bitis_utc,sure_saat,maliyet_usd
 en,openai/gpt-oss-120b,low,20,3000,150,150,0,0,0,164303,72764,237067,2026-11-17 15:12:26,2026-11-17 20:26:51,5.24,0.0
+tr,openai/gpt-oss-120b,low,20,3000,172,150,2,20,3,138942,78982,217924,2026-11-17 20:34:39,2026-11-18 23:13:12,26.64,0.0
