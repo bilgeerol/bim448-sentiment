@@ -1,0 +1,4 @@
+Sınıf,Örnek sayısı,Doğru,Gerçek sınıfa göre hata,Tahmine göre hata,Hata kırılımı
+Negatif,1000,799,201,233,"→Nötr: 190, →Pozitif: 11"
+Nötr,1000,703,297,291,"→Negatif: 220, →Pozitif: 77"
+Pozitif,1000,886,114,88,"→Negatif: 13, →Nötr: 101"
